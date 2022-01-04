@@ -88,7 +88,7 @@ class Calculator(QWidget):
         elif self.op == "-":    
             self.input.setText(str(self.num_1 - self.num_2))
         elif self.op == "*":
-            elf.input.setText(str(self.num_1 * self.num_2))
+            self.input.setText(str(self.num_1 * self.num_2))
         elif self.op == "/" and self.num_2 != 0:
             self.input.setText(str(self.num_1 / self.num_2))
         else: self.input.setText(str(self.num_1 / self.num_2))
